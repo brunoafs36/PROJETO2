@@ -5,4 +5,4 @@ function mostrarDataHora() {
     document.getElementById('date').innerText = date.toLocaleString();
 }
 
-mostrarDataHora();
+setInterval(mostrarDataHora(),1000);
