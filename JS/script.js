@@ -1,8 +1,8 @@
 function mostrarDataHora() {
     const date = new Date();
-    console.log(date.toLocaleTimeString());
+    console.log(date.toLocaleDateString());
     
     document.getElementById('date').innerText = date.toLocaleString();
 }
 
-setInterval(mostrarDataHora(),1000);
+setInterval(mostrarDataHora,1000);
